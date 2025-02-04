@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-    scanf("%d",&N);
-    if(num1>0)
+    int num;
+    scanf("%d",&num);
+    if(num>0)
        printf("Positive");
     else if(num==0)
        printf("Negative");
