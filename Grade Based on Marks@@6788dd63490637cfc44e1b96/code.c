@@ -6,7 +6,7 @@ int main() {
     if(num>=90)
         printf("A");
     else
-        if(num>=80 && num>90)
+        if(num>=80 && num<90)
             printf("B");
         else 
             if(num>=70 && num<80)
