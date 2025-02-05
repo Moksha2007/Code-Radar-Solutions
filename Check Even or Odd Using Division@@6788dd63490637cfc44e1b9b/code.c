@@ -5,6 +5,6 @@ int main() {
     scanf("%d",&num);
     if(num%2==0)
         printf("Even");
-    printf("Odd");
+    printf("\nOdd");
     return 0;
 }
