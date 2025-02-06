@@ -2,13 +2,14 @@
 
 int main() {
     int n;
+    int j;
     scanf("%d",&n);
     for(int i=n;i<=1;i--){
-        for(int j=1;j<=i;j++){
+        for(j=1;j<=i;j++){
             printf("%d ",j);
         }
         printf("\n");
-        int j=1;
+        j=1;
     } 
     return 0;
 } 
