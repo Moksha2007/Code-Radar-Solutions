@@ -1,5 +1,4 @@
-#include <stdio.h>
-int print(int x,int y){
+int printPrimesInRange(int x,int y){
     for(int i=x;i<=y;i++){
         int count=0;
         for(int j=1;j<=i;j++){
@@ -9,10 +8,4 @@ int print(int x,int y){
         if(count==2)
           printf("%d ",i);
     }
-}
-int main(){
-    int a,b;
-    scanf("%d %d",&a,&b);
-    print(a,b);
-    return 0;
 }
