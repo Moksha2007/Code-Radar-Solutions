@@ -10,9 +10,9 @@ int main(){
     }
     for(int i=0;i<=N/2;i++){
         a=arr[i];
-        arr[i]=arr[i+1];
-        arr[i+1]=arr[i];
+        arr[i]=arr[N-i+1];
+        arr[N-i+1]=arr[i];
     }
     if(arr1[N]==arr[N]) printf("YES");
-    else printf("NO");
+    else printf("NO"); 
 }
