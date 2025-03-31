@@ -9,12 +9,12 @@ int main(){
     scanf("%d",&target);
     for(int i=0;i<N;i++){
         m=0;
-        if(arr[i]==target)
+        if(arr[i]==target){
            printf("%d",i);
            m=1;
-           break;
+           break;}
     }
     if(m==0)
         printf("-1");
-    return 0;
+    return 0; 
 }
