@@ -13,7 +13,7 @@ int main(){
             break;
         }
     }
-    if(m=1)
+    if(m==1)
        printf("Sorted");
     return 0;
 }
