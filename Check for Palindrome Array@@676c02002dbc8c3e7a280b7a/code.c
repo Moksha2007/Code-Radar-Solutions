@@ -5,7 +5,7 @@ int main(){
     int arr[N],arr1[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
-        arr1[N]=arr[N];
+        arr1[i]=arr[i];
     }
     for(int i=0;i<=N/2;i++){
         a=arr[i];
