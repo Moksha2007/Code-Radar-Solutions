@@ -6,6 +6,7 @@ int main(){
     int arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
+        arr[i]=abs(arr[i];)
     }  
     for(int i=0;i<N;i++){
         int sum=0;
