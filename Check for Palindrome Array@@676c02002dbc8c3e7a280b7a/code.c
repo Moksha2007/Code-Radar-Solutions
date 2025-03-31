@@ -13,6 +13,6 @@ int main(){
         arr[i]=arr[N-i-1];
         arr[N-i-1]=arr[i];
     }
-    if(arr1[N]==arr[N]) printf("YES");
+    if(arr1[N-1]==arr[N-1]) printf("YES");
     else printf("NO"); 
 }
