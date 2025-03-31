@@ -14,4 +14,5 @@ int main(){
     for(int i=a;i<=b;i++){
         print(i);   
     }
+    return 0;
 }
