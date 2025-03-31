@@ -3,7 +3,8 @@ int main(){
     int N,a;
     scanf("%d",&N);
     int arr[N];
-    int arr1[N]=arr[N];
+    int arr1[N];
+    arr1[N]=arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
     }
