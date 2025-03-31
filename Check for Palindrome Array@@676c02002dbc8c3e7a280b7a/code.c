@@ -3,9 +3,9 @@ int main(){
     int N,a;
     scanf("%d",&N);
     int arr[N],arr1[N];
-    arr1[N]=arr[N];
     for(int i=0;i<N;i++){
         scanf("%d ",&arr[i]);
+        arr1[N]=arr[N];
     }
     for(int i=0;i<=N/2;i++){
         a=arr[i];
