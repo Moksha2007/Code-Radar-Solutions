@@ -1,18 +1,18 @@
 #include <stdio.h>
-int print(int x){
-    int count=0;
-    for(int j=1;j<=x;j++){
-        if(x%j==0)
-          count++;
+int print(int x,int y){
+    for(int i=x;i<=y;i++){
+        int count=0;
+        for(int j=1;j<=i;j++){
+            if(i%j==0)
+              count++;
+        }
+        if(count==2)
+          printf("%d ",i);
     }
-    if(count==2)
-       printf("%d",x);
 }
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    for(int i=a;i<=b;i++){
-        print(i);   
-    }
+    print(a,b);
     return 0;
 }
